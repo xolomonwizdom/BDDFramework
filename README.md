@@ -23,13 +23,13 @@ Steps - Actual Code mapping for each feature
 
 Feature - Contains feature files with respect to each test plan (or scenario preparation)
 
-Resources - Contains basics cucumber report mappings and extent reports mapping.
+Resources - Contains basic cucumber report mappings and extent report mapping.
 
 TestNG.xml = can be used for execution or for parallel testing
 
-POM.xml - heart of project - contains all the dependencies required by the project. 
+POM.xml - the heart of the project - contains all the dependencies required by the project. 
 
 NOTE1 = Runner file is mapped for parallel testing so use it as required. 
 
-NOTE2- We can integrate TesstNG.xml with POM.xml to execute it via Jenkins depending upon Runner files tag or
+NOTE2- We can integrate TesstNG.xml with POM.xml to execute it via Jenkins depending upon the Runner files tag or
 Different suites within TestNG.xml
